@@ -1,0 +1,60 @@
+.partners__title {
+  margin: 0 auto;
+  width: 330px;
+  text-align: center;
+
+  font-size: 21px;
+  font-weight: 400;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.partners__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  width: 330px;
+  margin: 0 auto;
+
+
+}
+.company {
+  display: flex;
+  flex-direction: column;
+
+  width: 40%;
+
+  &__name {
+text-align: center;
+font-size: 12px;
+font-weight: 700;
+line-height: 17px;
+  }
+}
+.company__logo__wrapper {
+  display: flex;
+  text-align: center;
+  align-items: center;
+
+  height: 90px;
+  margin: 0 auto;
+
+}
+
+@media (min-width: 960px) {
+  .partners {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .partners__wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    width: auto;
+    max-width: 1000px;
+    margin: 0 auto;
+
+  }
+}
