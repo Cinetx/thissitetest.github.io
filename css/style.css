@@ -78,7 +78,7 @@
     margin: 0 auto;
     position: absolute;
     top: -20px;
-    left: 83%;
+    left: 80%;
     background-image: url("/images/menu.png");
     background-size: cover;
     background-position: 0px -5px;
@@ -111,12 +111,10 @@
     width: 60px; }
   .nav__bar__icon--text {
     display: block;
-    margin-left: 54px;
     font-size: 15px;
     color: #0777ba; }
   .nav__bar__icon {
     position: absolute;
-    margin-left: 54px;
     width: 60px;
     opacity: 0; }
   .nav__menu__button {
